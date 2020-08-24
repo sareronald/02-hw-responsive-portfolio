@@ -9,25 +9,24 @@ body {
 
 .col-md-8 {
     background-color: white;
-    padding: 20px 0;
-    margin: 10px;
 }
 
 .col-md-4 {
     padding: 10px;
     margin: 10px 40px;
-}
-.profile-image {
-    height: 150px;
-    width: 150px;
-    margin: 0 20px;
-    background-color: red;
-    float: left; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.profile-image{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
 .portfolio-image {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-color: red;
 }
 
