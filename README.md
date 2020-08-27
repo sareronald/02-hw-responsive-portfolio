@@ -2,10 +2,11 @@
 // Homework Task 02 CSS and Bootstrap Homework: Responsive Portfolio //
 
 ## Contents
-<p></p>
+<p> 
+This responsive webpage is composed of 4 pages: index.html, portfolio.html, contact.html and style.css. The folder also includes an /assets folder that contains any images used in the website.
 
 ## User Story
-<p></p>
+<p>Responsive design ensures that web applications render well on a variety of devices and windows or screen sizes. As a developer, this projects represents a basic digital portfolio about me and my work, including a contact page for others to fill in a form.</p>
 
 ## Built With
 * [VScode](https://code.visualstudio.com/) - The editor of choice
@@ -14,13 +15,32 @@
 * [Font Awesome](https://getbootstrap.com/docs/4.5/components/alerts/)
 
 #### Initial interface
-* Screenshots
+![GitHub Logo](02-hw-screenshots/992-sr-index.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](02-hw-screenshots/768-sr-index.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](02-hw-screenshots/400-sr-index.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](02-hw-screenshots/992-sr-portfolio.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](02-hw-screenshots/400-sr-portfolio.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](02-hw-screenshots/992-sr-contact.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](02-hw-screenshots/768-sr-contact.png)
+Format: ![Alt Text](url)
 
 ### Licence
 * [Font Awesome License](https://getbootstrap.com/docs/4.5/components/alerts/) Last updated July 12, 2018
 
 ### Link to the App
-<a href="">Link to the App</a><hr>
+<a href="file:///Users/sarahronald/usyd-syd-fsf-pt-08-2020-u-c/coding-bootcamp-homework/02-hw-responsive-portfolio/index.html">Link to the App</a><hr>
 
 ## Authors
 * **SARAH RONALD** - 
