@@ -17,25 +17,25 @@ This responsive webpage is composed of 4 pages: index.html, portfolio.html, cont
 
 #### Initial interface
 ![GitHub Logo](02-hw-screenshots/992-sr-index.png)
-Format: ![png screenshot](url)
+Format: ![![992-sr-index](https://user-images.githubusercontent.com/67722377/91440556-21f8d600-e8b2-11ea-8844-a8e1ebbd5e3f.png)](url)
 
 ![GitHub Logo](02-hw-screenshots/768-sr-index.png)
-Format: ![png screenshot](url)
+Format: ![![768-sr-index](https://user-images.githubusercontent.com/67722377/91440804-80be4f80-e8b2-11ea-97b3-a5df8813a9cc.png)](url)
 
 ![GitHub Logo](02-hw-screenshots/400-sr-index.png)
-Format: ![png screenshot](url)
+Format: ![![400-sr-index](https://user-images.githubusercontent.com/67722377/91440858-99c70080-e8b2-11ea-8ccf-2de9b8e240c4.png)](url)
 
 ![GitHub Logo](02-hw-screenshots/992-sr-portfolio.png)
-Format: ![png screenshot](url)
+Format: ![![992-sr-portfolio](https://user-images.githubusercontent.com/67722377/91440923-b2cfb180-e8b2-11ea-9338-09e03063fe36.png)](url)
 
 ![GitHub Logo](02-hw-screenshots/400-sr-portfolio.png)
-Format: ![png screenshot](url)
+Format: ![![400-sr-portfolio](https://user-images.githubusercontent.com/67722377/91440994-cb3fcc00-e8b2-11ea-9e66-6869faeee141.png)](url)
 
 ![GitHub Logo](02-hw-screenshots/992-sr-contact.png)
-Format: ![png screenshot](url)
+Format: ![![992-sr-contact](https://user-images.githubusercontent.com/67722377/91441042-e1e62300-e8b2-11ea-935b-e49b1dc753f9.png)](url)
 
 ![GitHub Logo](02-hw-screenshots/768-sr-contact.png)
-Format: ![png screenshot](url)
+Format: ![![768-sr-contact](https://user-images.githubusercontent.com/67722377/91441111-004c1e80-e8b3-11ea-8803-1e1085cdfdaa.png)](url)
 
 ### Licence
 * [Font Awesome License](https://getbootstrap.com/docs/4.5/components/alerts/) Last updated July 12, 2018
