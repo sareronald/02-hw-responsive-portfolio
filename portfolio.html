@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="images/sr-icon.png">
+    <link rel="shortcut icon" href="assets/images/sr-icon.png">
     <title>Sarah Ronald Portfolio</title>
 
     <!--This HTML is linked to the Bootstrap CDN-->
@@ -47,6 +47,27 @@
                 </ul>
             </div>
         </div>
+        <div>
+            <div="container">
+                <ul class="social navbar-nav clearfix">
+                    <li class="straight">
+                        <a target="_blank" href="https://www.fb.com/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="straight">
+                        <a target="_blank" href="https://www.instagram.com">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="straight">
+                        <a target="_blank" href="https://www.linkedin.com">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- jQuery CDN -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -55,45 +76,58 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <div class="container">
-        <div class="wrapper">
-            <div class="row">
-                <div class="col-md-8 main-block">
-                    <h1>Portfolio</h1>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-4 grid">
-                            <img src="./images/portfolio-images/design-trends.png" class="portfolio-image">
-                        </div>
-                        <div class="col-md-4 grid">
-                            <img src="./images/portfolio-images/frogs.png" class="portfolio-image">
-                        </div>
+        <div class="row">
+            <div class="col-md-8 main-block">
+                <h1>Portfolio</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4 grid">
+                        <img src="./assets/images/portfolio-images/design-trends.png" alt="design-trends"
+                            class="portfolio-image">
+                    </div>
+                    <div class="col-md-4 grid">
+                        <img src="./assets/images/portfolio-images/frogs.png" alt="frogs" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 grid">
+                        <img src="./assets/images/portfolio-images/political-art.png" alt="political-art"
+                            class="portfolio-image">
+                    </div>
+                    <div class="col-md-4 grid">
+                        <img src="./assets/images/portfolio-images/puppy.png" alt="Puppy" class="portfolio-image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 grid">
+                        <img src="./assets/images/portfolio-images/warhol.png" alt="warhol" class="portfolio-image">
+                    </div>
+                    <div class="col-md-4 grid">
                     </div>
                     <div class="row">
                         <div class="col-md-4 grid">
-                            <img src="./images/portfolio-images/political-art.png" class="portfolio-image">
-                        </div>
-                        <div class="col-md-4 grid">
-                            <img src="./images/portfolio-images/puppy.png" class="portfolio-image">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 grid">
-                            <img src="./images/portfolio-images/warhol.png" class="portfolio-image">
                         </div>
                         <div class="col-md-4 grid">
                         </div>
                     </div>
                 </div>
             </div>
-        </div class="push"></div>
         </div>
     </div>
 
     <!--footer-->
-    <div class="footer text-center">
-        <div class="fixed-bottom bg-primary">
-            <footer>Copyright &#169; 2020</footer>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <nav class="navbar fixed-bottom navbar-dark bg-primary">
+                    <div class="col-lg-12">
+                        <a class="navbar-brand">Last updated 27 August 2020 ~ Copyright &#169; 2020</a>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
+    </footer>
+
 </body>
+
 </html>

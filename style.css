@@ -1,21 +1,27 @@
 /* Ensuring consistency in the portfolio across all pages */
 body {
-    background-image: url(./images/blue-snow.png);
+    background-image: url(./assets/images/blue-snow.png);
     background-color: #E7E8F0;
     overflow: scroll;
     height: 100%;
-    Margin: 0;
+    Margin-bottom: 50px;
 }
 
 /* White background on content (col-md-8) columns */
 .main-block {
     background-color: white;
+    min-height: 100%;
+}
+
+.social a{
+    color: white;
+    margin: 0 10px;
 }
 
 /* aligning the portfolio images so that they are centered in responsive design */
 .grid {
     padding: 10px;
-    margin: 10px 40px;
+    margin: 10px 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,8 +36,8 @@ body {
 }
 
 .portfolio-image {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
 }
 
 /* formatting the form to align on Contacts page */
@@ -49,30 +55,6 @@ h1 {
     color: orange;
 }
 
-/* Footer style*/
-footer {    
+.footer{
     color: white;
-    font-size: -0.2em;
-    padding: 20px;
-    border-top-color: orange;
-    border-top-style: solid;
-    border-top-width: 5px;
 }
-
-/* I have tried to get the footer to move down using a variety of codes, but can not get the following to work
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .wrapper {
-    min-height: 100%;
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child*/ 
-    /*margin-bottom: -50px;
-  }
-  .footer,
-  .push {
-    height: 50px;
-  }
-  And so I have deleted the unnecessary classes in the footer that would have been there to make this work*/
-
