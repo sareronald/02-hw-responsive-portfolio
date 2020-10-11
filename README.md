@@ -41,7 +41,7 @@ Format: ![![768-sr-contact](https://user-images.githubusercontent.com/67722377/9
 * [Font Awesome License](https://getbootstrap.com/docs/4.5/components/alerts/) Last updated July 12, 2018
 
 ### Link to the App
-<p>Link to the App: "file:///Users/sarahronald/usyd-syd-fsf-pt-08-2020-u-c/coding-bootcamp-homework/02-hw-responsive-portfolio/index.html"</p> 
+<p> "file:///Users/sarahronald/usyd-syd-fsf-pt-08-2020-u-c/coding-bootcamp-homework/02-hw-responsive-portfolio/index.html"</p> 
 <a href="file:///Users/sarahronald/usyd-syd-fsf-pt-08-2020-u-c/coding-bootcamp-homework/02-hw-responsive-portfolio/index.html">Link to the App</a><hr>
 
 ## Authors

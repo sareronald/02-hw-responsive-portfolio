@@ -1,60 +1,104 @@
 /* Ensuring consistency in the portfolio across all pages */
 body {
-    background-image: url(./assets/images/blue-snow.png);
-    background-color: #E7E8F0;
-    overflow: scroll;
-    height: 100%;
-    Margin-bottom: 50px;
+  background-color: #100e17;
+  overflow: scroll;
+  height: 100%;
+  margin-bottom: 50px;
 }
 
-/* White background on content (col-md-8) columns */
+/* style on content (col-md-8) columns */
 .main-block {
-    background-color: white;
-    min-height: 100%;
+  color: #b1b1b1;
+  min-height: 100%;
+  font-family: Arial, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 50px;
+}
+.contact {
+  color: white;
 }
 
-.social a{
-    color: white;
-    margin: 0 10px;
+.fab {
+  font-size: 30px;
 }
 
+.nav-link {
+  font-size: 20px;
+}
+
+/* style on about-block */
+.about-block {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+.social a {
+  color: white;
+  margin: 0 10px;
+}
+
+#name {
+  font-size: 2rem;
+  font-weight: 600;
+}
 /* aligning the portfolio images so that they are centered in responsive design */
 .grid {
-    padding: 10px;
-    margin: 10px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Formatting both the profile image and portfolio images to provide a neat grid*/
 .profile-image {
-    height: 250px;
-    width: 250px;
-    margin: 10px 30px;
-    float: left;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 30px;
 }
 
 .portfolio-image {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 350px;
 }
 
 /* formatting the form to align on Contacts page */
 .align {
-    padding: 10px;
-    margin: 20px;
+  padding: 10px;
+  margin: 20px;
 }
 
 p {
-    margin: 20px; 
+  margin: 20px;
 }
 
-h1 {
-    margin: 20px;
-    color: orange;
+.heading {
+  margin: 20px;
+  color: white;
+  background-image: linear-gradient(to top left, #e9df00, #0b13ff);
+  border-radius: 10px;
+  padding: 5px 15px;
 }
 
-.footer{
-    color: white;
+.project-info {
+  list-style: none;
+  padding-left: -40px;
+}
+
+hr.thick {
+  border: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 5px;
+  background-image: linear-gradient(90deg, #0b13ff, #e9df00);
+  border-radius: 5px;
+}
+
+.copyright {
+  background-color: #100e17;
+  font-size: 12px;
+  font-weight: lighter;
+  padding-bottom: 30px;
 }

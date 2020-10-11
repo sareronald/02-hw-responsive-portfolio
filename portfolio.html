@@ -1,133 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="assets/images/sr-icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="shortcut icon" href="assets/images/sr-iconB copy.png" />
     <title>Sarah Ronald Portfolio</title>
 
     <!--This HTML is linked to the Bootstrap CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
 
     <!--This HTML is linked to the Font Awesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
 
     <!--And my own css file-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-</head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!--Brand and toggle get grouped for better mobile display-->
+        <img
+          class="icon-sr"
+          src="assets/images/light.png"
+          alt="icon"
+          height="50px"
+          width="50px"
+        />
+        <a class="navbar-brand" href="index.html" id="name">Sarah Ronald</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <!-- Social Media Links -->
+      <div>
         <div class="container">
-            <!--Brand and toggle get grouped for better mobile display-->
-            <a class="navbar-brand" href="index.html" id="name">Sarah Ronald</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <ul class="social navbar-nav clearfix">
+            <li class="straight">
+              <a target="_blank" href="https://www.fb.com/">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="straight">
+              <a target="_blank" href="https://www.instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="straight">
+              <a target="_blank" href="https://www.linkedin.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="straight">
+              <a
+                target="_blank"
+                href="https://github.com/sareronald?tab=repositories"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div>
-            <div="container">
-                <ul class="social navbar-nav clearfix">
-                    <li class="straight">
-                        <a target="_blank" href="https://www.fb.com/">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="straight">
-                        <a target="_blank" href="https://www.instagram.com">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="straight">
-                        <a target="_blank" href="https://www.linkedin.com">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </nav>
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    ​
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <hr class="thick" />
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 main-block">
-                <h1>Portfolio</h1>
-                <hr>
-                <div class="row">
-                    <div class="col-md-4 grid">
-                        <img src="./assets/images/portfolio-images/design-trends.png" alt="design-trends"
-                            class="portfolio-image">
-                    </div>
-                    <div class="col-md-4 grid">
-                        <img src="./assets/images/portfolio-images/frogs.png" alt="frogs" class="portfolio-image">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 grid">
-                        <img src="./assets/images/portfolio-images/political-art.png" alt="political-art"
-                            class="portfolio-image">
-                    </div>
-                    <div class="col-md-4 grid">
-                        <img src="./assets/images/portfolio-images/puppy.png" alt="Puppy" class="portfolio-image">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 grid">
-                        <img src="./assets/images/portfolio-images/warhol.png" alt="warhol" class="portfolio-image">
-                    </div>
-                    <div class="col-md-4 grid">
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 grid">
-                        </div>
-                        <div class="col-md-4 grid">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container main-block">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="heading">Portfolio</h2>
+          <hr />
         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 grid">
+          <img
+            src="./assets/images/portfolio-images/Pinboard-project-screenshot.png"
+            alt="Pinboard"
+            class="portfolio-image"
+          />
+        </div>
+        <div class="col-md-5 grid text-center">
+          <img
+            src="./assets/images/portfolio-images/Day-Scheduler-screenshot.png"
+            alt="Scheduler"
+            class="portfolio-image"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 grid text-center">
+          <ul class="project-info">
+            <li><h3>Pinboard App</h3></li>
+            <li>
+              <a href="https://ninetta11.github.io/7-Project-1/"
+                >Deployed Link</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Ninetta11/7-Project-1.git"
+                >GitHub Repository</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 grid text-center">
+          <ul class="project-info">
+            <li><h3>Daily Scheduler App</h3></li>
+            <li>
+              <a href="https://sareronald.github.io/05-hw-work-day-scheduler/"
+                >Deployed Link</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/sareronald/05-hw-work-day-scheduler.git"
+                >GitHub Repository</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 grid">
+          <img
+            src="./assets/images/portfolio-images/weather-dashboard-screenshot.png"
+            alt="Pinboard"
+            class="portfolio-image"
+          />
+        </div>
+        <div class="col-md-5 grid text-center">
+          <img class="portfolio-image" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 grid text-center">
+          <ul class="project-info">
+            <li><h3>Weather Dashboard App</h3></li>
+            <li>
+              <a href="https://sareronald.github.io/06-hw-weather-dashboard/"
+                >Deployed Link</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/sareronald/06-hw-weather-dashboard.git"
+                >GitHub Repository</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 grid text-center"></div>
+      </div>
     </div>
 
     <!--footer-->
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <nav class="navbar fixed-bottom navbar-dark bg-primary">
-                    <div class="col-lg-12">
-                        <a class="navbar-brand">Last updated 27 August 2020 ~ Copyright &#169; 2020</a>
-                    </div>
-                </nav>
+    <footer>
+      <div class="container-fluid">
+        <div class="row text-center">
+          <nav class="navbar fixed-bottom navbar-dark copyright">
+            <div class="col-lg-12">
+              <hr class="thick" />
+              <a class="navbar-brand"
+                >Last updated 11 October 2020 ~ Copyright &#169; 2020</a
+              >
             </div>
+          </nav>
         </div>
+      </div>
     </footer>
-
-</body>
-
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
