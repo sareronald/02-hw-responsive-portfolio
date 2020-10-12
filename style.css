@@ -98,7 +98,10 @@ hr.thick {
 
 .copyright {
   background-color: #100e17;
-  font-size: 12px;
   font-weight: lighter;
   padding-bottom: 30px;
+}
+
+.last-updated {
+  font-size: 14px;
 }
