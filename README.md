@@ -24,7 +24,7 @@ This responsive web application has three main HTML pages with corresponding CSS
 
 ## Initial interface
 ### Screenshots
-![Portfolio-Demo]()
+![sarah-ronald-portfolio](https://user-images.githubusercontent.com/67722377/95697444-7bfb0280-0c8a-11eb-9652-496a5b7b7247.gif)
 
 ### Licence
 * [Font Awesome License](https://getbootstrap.com/docs/4.5/components/alerts/) Last updated July 12, 2018
