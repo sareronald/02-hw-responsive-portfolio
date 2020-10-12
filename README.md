@@ -30,7 +30,7 @@ This responsive web application has three main HTML pages with corresponding CSS
 * [Font Awesome License](https://getbootstrap.com/docs/4.5/components/alerts/) Last updated July 12, 2018
 
 ### Link to the App
-Please visit the<a href="https://sareronald.github.io/02-hw-responsive-portfolio/"<site</a> hosted on GitHub Pages<hr>
+Please visit the<a href="https://sareronald.github.io/02-hw-responsive-portfolio/">site</a> hosted on GitHub Pages<hr>
 
 ## Authors
 * **SARAH RONALD** - 
