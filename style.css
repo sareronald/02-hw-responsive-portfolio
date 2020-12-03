@@ -92,8 +92,9 @@ p {
 
 .project-info {
   list-style: none;
-  padding-left: -40px;
+  margin-left: -40px;
   margin-top: 20px;
+  /* margin-left: 0px; */
 }
 
 hr.thick {
